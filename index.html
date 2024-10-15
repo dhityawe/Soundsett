@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundset - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="path_to_banner_image" alt="Banner Image" class="banner-img">
+        <div class="logo">
+            <img src="image/ddwwad.png" alt="Soundset Logo">
+        </div>
+        <div class="banner-text">
+            <h1>Connect on Soundset</h1>
+            <p>Discover, stream, and share a constantly expanding mix of<br>
+               music from emerging and major artists around the world you seek.</p>
+            <button class="sign-up-btn" id="signUpBtn">Sign up for free</button>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <input type="text" placeholder="Search for artist, band, tracks, or podcast" class="search-box">
+            <span class="or-text">or</span>
+            <button class="upload-btn">Upload your own</button>
+        </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="trending-section">
+        <h2>Hear what's trending for free in the Soundset community</h2>
+        <div class="card-container">
+            <!-- 6 interactive song cards -->
+            <div class="song-card">
+                <img src="image/jirapah.jpeg.jpg" alt="Song Image 1" class="song-img">
+                <div class="song-details">
+                    <h3>Sesak</h3>
+                    <p>Jirapah</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="image/denisa.jpeg.jpg" alt="Song Image 2" class="song-img">
+                <div class="song-details">
+                    <h3>Failing Grace</h3>
+                    <p>Denisa</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="image/milledenials.jpeg.jpg" alt="Song Image 3" class="song-img">
+                <div class="song-details">
+                    <h3>Precious Me</h3>
+                    <p>Milledenials</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="image/drizzly.jpeg.jpg" alt="Song Image 4" class="song-img">
+                <div class="song-details">
+                    <h3>Peachy World</h3>
+                    <p>Drizzly</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="image/blur.jpeg.jpg" alt="Song Image 5" class="song-img">
+                <div class="song-details">
+                    <h3>Beetlebum</h3>
+                    <p>Blur</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="image/oasis.jpeg.jpg" alt="Song Image 6" class="song-img">
+                <div class="song-details">
+                    <h3>Married With Children</h3>
+                    <p>Oasis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Modal -->
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="social-login">
+                <button class="social-btn"><img src="image/facebook.png" alt="Facebook Logo"> Continue with Facebook</button>
+                <button class="social-btn"><img src="image/social.png" alt="Google Logo"> Continue with Google</button>
+                <button class="social-btn"><img src="image/apple.png" alt="Apple Logo"> Continue with Apple</button>
+            </div>
+            <div class="divider">
+                <hr><span>or</span><hr>
+            </div>
+            <input type="email" placeholder="Your email address or profile URL" class="email-input">
+            <button class="continue-btn">Continue</button>
+            <br><a href="#" class="need-help">Need help?</a><br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

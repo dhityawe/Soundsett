@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Lagu - Soundset</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="detail-header">
+        <div class="logo"> 
+            <img src="image/ddwwad.png" alt="Soundset Logo">
+        </div>
+        <nav class="nav-center">
+            <a href="index.html">Home</a>
+            <a href="#">Feed</a>
+            <a href="#">Library</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for artist, band, tracks, or podcast">
+            <button class="search-btn">
+                <img src="image/search.png" alt="Search">
+            </button>
+        </div>
+    </header>
+
+    <!-- Song Detail Section -->
+    <section class="song-detail-section">
+        <div class="song-detail-content">
+            <!-- Left Section with Play Icon, Title, Band -->
+            <div class="song-left">
+                <button class="play-btn">
+                    <img src="image/play.png" alt="Play">
+                </button>
+                <div class="song-info">
+                    <h2>Sesak</h2>
+                    <p>Jirapah</p>
+                </div>
+            </div>
+
+            <!-- Right Section with Upload Date and Genre -->
+            <div class="song-right">
+                <p class="upload-date">24 days ago</p>
+                <span class="genre-badge">#Alternative</span>
+            </div>
+
+            <!-- Album Cover -->
+            <div class="album-cover">
+                <img src="image/jirapah.jpeg.jpg" alt="Album Cover">
+            </div>
+        </div>
+
+        <!-- Track Progress Bar -->
+        <div class="track-progress">
+            <span>0:00</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span>3:45</span>
+        </div>
+    </section>
+
+    <!-- Band and Related Songs Section -->
+    <section class="band-related-section">
+        <!-- Band Info -->
+        <div class="band-info">
+            <img src="image/band.png" alt="Band Image" class="band-img">
+            <h3>Jirapah</h3>
+        </div>
+
+        <!-- Band Details -->
+        <div class="band-details">
+            <p>29,269 monthly listeners</p>
+            <p class="band-description">A love for the diversity of sounds and styles in an ever-evolving world of music inspired the 
+                creation of Jakarta, Indonesia-based band, Jirapah. First formed in the mid-2000s by Ken 
+                Jenie and Mar Galo in their New York City apartment as a...</p>
+            <span class="genre-badge">#Indie Rock</span>
+        </div>
+
+        <!-- Related Songs -->
+        <div class="related-songs">
+            <div class="related-header">
+                <img src="image/sort.png" alt="Sort Icon" class="sort-icon">
+                <h3>Related</h3>
+            </div>
+            <div class="related-song">
+                <div class="related-card">
+                    <img src="image/wow.png" alt="Related Song Image 1">
+                    <div class="related-song-info">
+                        <h4>Jirapah</h4>
+                        <p>Bekerja</p>
+                    </div>
+                </div>
+            </div>
+            <div class="related-song">
+                <div class="related-card">
+                    <img src="image/wow.png" alt="Related Song Image 2">
+                    <div class="related-song-info">
+                        <h4>Jirapah</h4>
+                        <p>Planetarium</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Tambahkan lebih banyak related-song jika diperlukan -->
+        </div>
+    </section>
+
+    <!-- Footer Player Section -->
+    <footer class="footer-player">
+        <div class="player-controls">
+            <button class="backward-btn">
+                <img src="image/backward-track.png" alt="Backward">
+            </button>
+            <button class="play-btn">
+                <img src="image/playHitam.png" alt="Play">
+            </button>
+            <button class="forward-btn">
+                <img src="image/next.png" alt="Forward">
+            </button>
+        </div>
+
+        <div class="track-info">
+            <span>0:00</span>
+            <div class="track-progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span>3:45</span>
+        </div>
+
+        <div class="volume-control">
+            <button class="volume-btn">
+                <img src="image/volume-up.png" alt="Volume">
+            </button>
+        </div>
+
+        <div class="current-song">
+            <img src="image/jirapah.jpeg.jpg" alt="Album Cover" class="footer-album-cover">
+            <div class="footer-song-info">
+                <h4>Jirapah</h4>
+                <p>Sesak</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
